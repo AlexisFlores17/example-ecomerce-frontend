@@ -1,0 +1,26 @@
+@use "../../colors.scss" as c;
+
+.info-game{
+    overflow: hidden;
+
+    &__video {
+        width: 100% !important;
+        height: 620px !important;
+    }
+
+    &__content{
+        padding: 14px;
+        color: c.$font-grey;
+
+        &-date{
+            display: flex;
+            margin-top: 20px;
+
+            h4 {
+                color: c.$primary;
+                margin-right: 10px;
+            }
+        }
+    }
+
+}

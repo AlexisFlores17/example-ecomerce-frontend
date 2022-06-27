@@ -1,0 +1,10 @@
+@use "../../colors.scss" as c;
+
+
+.tabs-game {
+    margin: 15px;
+
+    .ui.tab {
+        padding: 0;
+    }
+}

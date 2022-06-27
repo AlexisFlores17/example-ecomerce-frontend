@@ -1,0 +1,34 @@
+@forward "./global.scss";
+@forward "./layouts/BasicLayout.scss";
+@forward "./components/header/header.scss";
+@forward "./components/header/topbar.scss";
+@forward "./components/header/menu.scss";
+@forward "./components/modal/basicModal.scss";
+@forward "./components/auth/loginForm.scss";
+@forward "./pages/account.scss";
+@forward "./components/account/changeNameForm.scss";
+@forward "./components/account/changeEmailForm.scss";
+@forward "./components/account/changePasswordForm.scss";
+@forward "./components/account/adressForm.scss";
+@forward "./components/account/listAddress.scss";
+@forward "./components/listGames.scss";
+@forward "./pages/platform.scss";
+@forward "./components/pagination.scss";
+@forward "./components/game/headerGame.scss";
+@forward "./components/game/tabGame.scss";
+@forward "./components/game/infoGame.scss";
+@forward "./components/game/carrouselScrenshots.scss";
+@forward "./pages/wishlist.scss";
+@forward "./pages/search.scss";
+@forward "./pages/cart.scss";
+@forward "./components/sumarryCart.scss";
+@forward "./components/adressShipping.scss";
+@forward "./components/payment.scss";
+@forward "./components/formPayment.scss";
+@forward "./pages/orders.scss";
+@forward "./components/orders/orders.scss";
+.home{
+    .content{
+        padding:20px;
+    }
+}

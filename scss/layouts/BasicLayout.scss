@@ -1,0 +1,20 @@
+@use "../colors" as c;
+
+.basic-layout{
+    min-height: 100vh;
+    background-image: url("https://res.cloudinary.com/dyi84jpkl/image/upload/v1646464290/statics/szkbw7lzberesr7fezjb.jpg");
+    background-size: cover;
+    background-position: center;
+    .content{
+        background-color: c.$background-grey-light;
+        height:calc(100vh - 130px);
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+        overflow-y: scroll;
+
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
+}

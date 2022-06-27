@@ -1,0 +1,64 @@
+@use "../../colors.scss" as c;
+
+.order{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin-bottom: 10px;
+    background-color: c.$background-light;
+    box-shadow: 1px 1px 2px 0 rgba(0,0,0,0.1);
+
+    &:last-of-type{
+        // margin-bottom: 0;
+
+    }
+
+    &__info{
+        display: flex;
+        a{
+            height: 100%;
+            .ui.image{
+                height: 100%;
+                margin-right: 20px;
+            }
+        }
+
+        &-data{
+            display: flex;
+            justify-content: flex-start;
+            font-size: 16px;
+            margin-bottom: 5px;
+
+            > div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            h2{
+                font-size: 16px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+
+    &__other{
+        display: flex;;
+        align-items: center;
+        padding-right: 10px;
+
+        &-date{
+            margin: 0 20px 0 0;
+            width: 125px;
+        }
+
+        i {
+            padding-left: 20px;
+            color: c.$primary;
+        }
+
+        i:hover{
+            cursor: pointer;
+        }
+    }
+}

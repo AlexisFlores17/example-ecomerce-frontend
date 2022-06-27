@@ -1,0 +1,51 @@
+@use "../../colors" as c;
+
+.menu{
+    background-color: c.$background-grey-dark;
+    border-radius: 0;
+
+    .ui.grid{
+        margin: 0;
+    }
+
+    &__left,
+    &__right {
+        padding: 0 !important;
+        display: flex !important;
+        align-items: center;
+
+        .ui.menu{
+            border: 0;
+            box-shadow: none;
+            height: 100%;
+            background: transparent;
+
+            .icon{
+                margin-right: 10px !important;
+                color: c.$primary;
+            }
+
+            .item{
+                color: c.$font-light;
+                border-radius: 0 !important;
+
+                &:hover{
+                    color: c.$font-light;
+                    background-color: c.$background-dark-absolute;
+                    &:before{
+                        background-color: c.$background-dark-absolute;
+                    }
+                }
+
+                &.m-0 i {
+                    margin: 0 !important;
+                }
+            }
+        }
+    }
+
+    &__right{
+        display: flex;
+        justify-content: flex-end;
+    }
+}

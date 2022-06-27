@@ -1,0 +1,21 @@
+@use "./colors.scss" as c;
+
+.ui.form{
+    .ui.input{
+        input{
+            border: 1px solid c.$border-grey-light;
+        }
+    }
+
+    .actions{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+
+    .ui.button.submit{
+        background-color: c.$primary;
+        color:c.$font-light;
+        margin: 0;
+    }
+}
